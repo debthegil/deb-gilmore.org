@@ -1,0 +1,174 @@
+.wrapper{
+    
+    margin:0 auto 0 auto;
+    position:relative;
+    max-width:1000px;
+    font-family:serif;
+    
+}
+
+body{
+    
+    max-width:1200px;
+    background-color:white;
+}
+
+.header{
+    
+    height:60px;
+    border:solid;
+    border-left-color:white;
+    border-right-color:white;
+    border-top-color:white;
+    border-bottom-color: grey; 
+    
+}
+
+.container{
+    
+    max-width:800px;
+    padding:10px;
+    height:550px;
+    position:relative;
+}
+
+.container a{
+    
+    background-color:white;
+    border:solid;
+    border-color:black;
+    border-width:thick;
+    font-family:serif;
+    text-decoration:none;
+    padding:10px;
+    font-size:
+    
+}
+
+.whiteSpace{
+    
+    height:100px;
+    
+}
+
+.footer{
+    
+    border:solid;
+   border-top-color:grey;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color:white;
+    padding:10px;
+    
+    
+}
+
+h1{
+    
+    text-shadow:.5px .5px 2px grey;
+}
+
+.image : hover.overlay{
+    
+display: block;
+  height: auto;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 50px;
+    font-family:serif;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+    align-content: center;
+  height:0;
+  transition: .7s ease;
+
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+a{
+    display:block;
+    background-color:white;
+    color:black;
+}
+
+a : hover{
+    
+    opacity: 80%;
+    color:grey;
+    
+}
+
+.fade{
+     opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade:hover {
+      opacity: 0.5;
+      }
+
+
+.container2{
+     width: 800px;
+    height:600px;
+ background-color: white;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+        animation-direction: reverse;
+}
+
+@-webkit-keyframes example {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+p{
+    text-align: left;
+    font-family: "verdana";
+    padding:20px;
+    padding-top:40px;
+}
+
+h2{
+    text-align: left;
+}
+
+.selectionbox{
+    width:100px;
+    height:200px;
+    float:right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:40px
+        display:block;
+    
+}
